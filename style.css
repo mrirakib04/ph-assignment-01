@@ -141,6 +141,7 @@ main {
 }
 .reviews h3 {
   font-size: 32px;
+  font-weight: 700;
 }
 .reviews-container {
   display: flex;
@@ -194,4 +195,32 @@ main {
 .reviewer .reviewer-details p {
   font-size: 16px;
   color: rgb(105, 105, 105);
+}
+
+/* focus section */
+.focus {
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.focus h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.focus p {
+  margin-top: 10px;
+  font-style: 18px;
+  color: #5f5f5f;
+  font-weight: 500;
+}
+.focus img {
+  margin-top: 20px;
+  width: 75%;
+  height: auto;
+  border-radius: 30px;
 }
