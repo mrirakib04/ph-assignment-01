@@ -5,6 +5,9 @@
 }
 
 /* multi purpose */
+body {
+  background: #f5f8ff;
+}
 header,
 main,
 footer {
@@ -60,4 +63,35 @@ header nav {
 .banner-content h2 {
   font-size: 48px;
   font-weight: 700;
+}
+
+/* action section */
+main {
+  padding: 0px 30px;
+}
+.action {
+  width: 90%;
+  margin: auto;
+  padding: 70px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.action .action-content h3 {
+  font-size: 36px;
+}
+.action .action-content p {
+  width: 70%;
+  font-size: 18px;
+}
+.action img {
+  width: 380px;
+  height: 280px;
+  border-radius: 30px;
 }
