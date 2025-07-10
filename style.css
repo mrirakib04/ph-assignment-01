@@ -12,7 +12,7 @@ header,
 main,
 footer {
   max-width: 1480px;
-  margin: auto;
+  margin: 30px auto 0px;
 }
 button {
   cursor: pointer;
@@ -37,6 +37,10 @@ button {
   border-bottom-right-radius: 0;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
+}
+.sec-width {
+  width: 90%;
+  margin: auto;
 }
 
 /* header */
@@ -70,8 +74,6 @@ main {
   padding: 0px 30px;
 }
 .action {
-  width: 90%;
-  margin: auto;
   padding: 70px 0px;
   display: flex;
   align-items: center;
@@ -94,4 +96,40 @@ main {
   width: 380px;
   height: 280px;
   border-radius: 30px;
+}
+
+/* quantity section */
+.quantity {
+  padding: 50px 30px;
+  border-radius: 20px;
+  background: rgba(78, 71, 255, 0.1);
+  text-align: center;
+}
+.quantity h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.quantities {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.quantities .quantity-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.quantities .quantity-details h4 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4e47ff;
+}
+.quantities .quantity-details p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
 }
