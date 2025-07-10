@@ -92,6 +92,7 @@ main {
 .action .action-content p {
   width: 70%;
   font-size: 18px;
+  color: #898989;
 }
 .action img {
   width: 380px;
@@ -273,7 +274,7 @@ main {
 
 footer {
   background: #fff;
-  padding: 50px 30px;
+  padding: 70px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
